@@ -1,0 +1,21 @@
+
+C
+java:S1170"!Make this final field static too.(ŞÅçÿÿÿÿÿ8éœ”ß1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùêÜåûÿÿÿÿ8êœ”ß1
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ŞÅçÿÿÿÿÿ8îœ”ß1
+u
+java:S1989)"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É¸©¦ûÿÿÿÿ8óœ”ß1
+~
+java:S19895"\Handle the following exception that could be thrown by "parseDouble": NumberFormatException.(ú×Ãœıÿÿÿÿ8õœ”ß1
+{
+java:S19896"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(õÙëÇùÿÿÿÿ8öœ”ß1
+~
+java:S19897"aHandle the following exceptions that could be thrown by "getPart": IOException, ServletException.(ºğªÅ8÷œ”ß1
+G	java:S106:"+Replace this use of System.out by a logger.(ª¤ÊÂ8øœ”ß1
+u
+java:S1989K"SHandle the following exception that could be thrown by "sendRedirect": IOException.(„áçÀùÿÿÿÿ8úœ”ß1
+E	java:S108`")Either remove or fill this block of code.(ï­£Ä8üœ”ß1
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(œâÓÕ8şœ”ß1
