@@ -89,8 +89,6 @@ public class UsuarioJpaController {
             em.getTransaction().rollback();
         }
         throw e;
-    } finally {
-        em.close();
-    }
+    } 
     }
 }

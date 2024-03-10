@@ -46,13 +46,10 @@ public class ProductoJpaController {
                 em.getTransaction().rollback();
             }
             throw ex;
-        } finally {
-            em.close();
         }
     }
 
     public void destroy(Long id) throws Exception {
-        try {
             em.getTransaction().begin();
             Producto producto;
             try {
@@ -63,17 +60,10 @@ public class ProductoJpaController {
             }
             em.remove(producto);
             em.getTransaction().commit();
-        } finally {
-            em.close();
-        }
     }
 
     public Producto find(Long id) {
-        try {
             return em.find(Producto.class, id);
-        } finally {
-            em.close();
-        }
     }
 
     public List<Producto> findEntities() {

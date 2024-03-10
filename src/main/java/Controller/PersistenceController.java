@@ -2,6 +2,8 @@ package Controller;
 
 
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import modelo.Usuario;
 import modelo.Producto;
 import persistence.ComprasJpaController;
@@ -47,6 +49,22 @@ public class PersistenceController {
     public List<Producto> listadoProducto() {
         List<Producto> entities = productoJpa.findEntities();
         return entities;
+    }
+
+    Producto buscarProducto(long id) {
+      return productoJpa.find(id);
+    }
+    
+    void editarProducto(Producto producto) throws Exception {
+       productoJpa.edit(producto);
+    }
+
+    void eliminar(long id) {
+        try {
+            productoJpa.destroy(id);
+        } catch (Exception ex) {
+            Logger.getLogger(PersistenceController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     

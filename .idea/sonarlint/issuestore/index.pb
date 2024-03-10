@@ -31,3 +31,5 @@ I
 0src/main/java/persistence/PagoJpaController.java,e\f\efe05566979d02f75d5a216d0ce968337d69909d
 c
 3src/main/java/persistence/ComprasJpaController.java,7\4\74dc970b7fb4e4f1e0752f9b05782f7e2f604a0a
+W
+'src/main/java/servlets/SvRegistrar.java,a\7\a7a035ed9714b11891309a5b52117fe120bdccd8

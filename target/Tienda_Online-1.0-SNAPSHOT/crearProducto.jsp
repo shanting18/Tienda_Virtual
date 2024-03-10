@@ -53,9 +53,13 @@
                     <label for="cantidad" />Catidad: </label>
                     <input type="text" name="cantidad" id="cantidad" placeholder="cantidad" required />
                 </div>
+               <div class="caja">
+                    <label for="categoria">categoria: </label>
+                    <input type="text" name="categoria" id="categoria" placeholder="categoria del producto"/>
+                </div>
                 <div class="caja">
                     <label for="descripcion" />Descripcion: </label>
-                <textarea id="descripcion" name="descripcion" cols="77" rows="10">
+                <textarea id="descripcion" name="descripcion">
                 </textarea>
                 </div>
                 <button type="submit" >
@@ -71,6 +75,7 @@
                        <th>Nombre</th>
                        <th>Precio</th>
                        <th>cantidad</th>
+                       <th>categoria</th>
                        <th>Descripcion</th>
                    </tr>
                </thead>
@@ -84,9 +89,10 @@
                                <th><%=producto.getNombre()%></th>
                                <th><%=producto.getPrecio()%></th>
                                <th><%=producto.getCantidad()%></th>
+                               <th><%=producto.getCategoria()%></th>
                                <th><%=producto.getDescripcion()%></th>
-                               <th>editar</th>
-                               <th>eliminar</th>
+                               <th><a href="SvProductos?accion=editar&id=<%=producto.getId()%>">Editar</a></th>
+                               <th><a href="SvProductos?accion=eliminar&id=<%=producto.getId()%>">Eliminar</a></th>
                            </tr>
                         <%}%>
                    <% } else { %>
@@ -96,3 +102,4 @@
            </table>
        </section>
    </body>
+</html>
