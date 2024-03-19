@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.Persistence;
-import modelo.Detalles;
+import modelo.productos.Detalles;
 
 public class DetallesJpaController {
     

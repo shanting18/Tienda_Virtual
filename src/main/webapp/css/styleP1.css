@@ -186,6 +186,11 @@ img {
 .navegacion{
 position: relative;
 display: flex;
+width: 100%;
+}
+
+.largor-lista{
+    width: 100%;
 }
 
 .espacio-lista{
@@ -199,6 +204,7 @@ display: flex;
 .nav-item{
     display: flex;
     padding: 0;
+    width: 100%
 }
 
 .nav-link {

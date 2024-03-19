@@ -1,7 +1,9 @@
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\Producto.java
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\Compras.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\productos\Compras.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\usuario\Login.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\productos\Pago.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\usuario\Usuario.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\controller.java
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\Login.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\productos\Producto.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\servlets\usuario\SvLogin.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\servlets\productos\SvProductos.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\ComprasJpaController.java
@@ -10,10 +12,9 @@ C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\PagoJpaController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\exceptions\IllegalOrphanException.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\exceptions\PreexistingEntityException.java
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\Pago.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\PersistenceController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\ProductoController.java
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\Usuario.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\productos\Detalles.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\ClienteJpaController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\DetallesJpaController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\exceptions\UsuarioNoExisteException.java
@@ -21,4 +22,3 @@ C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\LoginJpaController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\exceptions\NonexistentEntityException.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\UsuarioController.java
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\modelo\Detalles.java

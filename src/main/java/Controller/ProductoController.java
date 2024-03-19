@@ -3,7 +3,7 @@ package Controller;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import modelo.Producto;
+import modelo.productos.Producto;
 
 public class ProductoController {
 

@@ -1,6 +1,6 @@
+<%@page import="modelo.productos.Producto"%>
 <%@page import="Controller.ProductoController"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="modelo.Producto"%>
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -21,6 +21,15 @@
    </head> 
   
    <body>
+       <!-- validacion sesion -->
+   <% HttpSession Session = request.getSession();
+        String usuario = (String) request.getSession().getAttribute("email");
+        
+        if (usuario == null) {
+                response.sendRedirect("login.jsp");
+            }else{
+        }
+   %>
        <header>
            <div class="header">
                <div class="contenedor">
@@ -53,9 +62,15 @@
                                               <li class="nav-item">
                                                   <a class="nav-link" href="registrar.jsp">Registrar</a>
                                               </li>
+                                         <% if (usuario.equals("admin@example.com")) {%>
                                               <li class="nav-item">
-                                                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
+                                                <a class="nav-link" href="crearProducto.jsp">crea P</a>
                                               </li>
+                                         <% }else{%>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="carrito.jsp"><img src="icon/carrito.png" alt="#"/></a>
+                                              </li>
+                                         <% }%>
                                          </ul>
                                       </div>
                                  </nav>   

@@ -1,5 +1,5 @@
 package Controller;
-import modelo.Usuario;
+import modelo.usuario.Usuario;
 
 public class UsuarioController {
 

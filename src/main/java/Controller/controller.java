@@ -1,6 +1,6 @@
 package Controller;
 
-import modelo.Producto;
+import modelo.productos.Producto;
 
 import java.util.List;
 

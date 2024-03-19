@@ -7,22 +7,16 @@ c
 3src/main/java/Controller/PersistenceController.java,1\8\183bd99853b96efccac913a20dd576425e98edca
 d
 4src/main/java/persistence/ProductoJpaController.java,4\8\4810026c21a48b698d5e80848974206379ffbca2
-W
-'src/main/java/servlets/SvProductos.java,5\1\51e1e7db7b739d6e751208500e8750b4ebc54cf4
 Q
 !src/main/webapp/crearProducto.jsp,9\2\92aa098c89d6b63879507480cff3bee2f3491588
 Q
 !src/main/webapp/css/styleForm.css,5\a\5a229b23955c00c457182da4469931aad69139c9
 M
 src/main/webapp/registrar.jsp,4\5\452b64a169c28fcac073e065ecb94888dcf6d0c9
-R
-"src/main/java/modelo/Producto.java,5\d\5d4aa8abd3deca94012855c0259742f56f282b32
 M
 src/main/webapp/productos.jsp,4\c\4cdfa83efc55cd63e829af5759bb44712ef44ee6
 _
 /src/main/java/Controller/UsuarioController.java,7\9\79a39bb6ec311a5835b2cf5dbb99e7366edcb033
-S
-#src/main/java/servlets/SvLogin.java,d\3\d37ae2ea58c867b8253d05ee8816fb164030a7d0
 X
 (src/main/java/Controller/controller.java,e\6\e616087b54842ed3f27a956f843d153425fa410d
 I
@@ -31,5 +25,3 @@ I
 0src/main/java/persistence/PagoJpaController.java,e\f\efe05566979d02f75d5a216d0ce968337d69909d
 c
 3src/main/java/persistence/ComprasJpaController.java,7\4\74dc970b7fb4e4f1e0752f9b05782f7e2f604a0a
-W
-'src/main/java/servlets/SvRegistrar.java,a\7\a7a035ed9714b11891309a5b52117fe120bdccd8

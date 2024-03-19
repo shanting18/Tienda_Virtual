@@ -3,7 +3,7 @@ package persistence;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import modelo.Usuario;
+import modelo.usuario.Usuario;
 
 public class LoginJpaController {
     

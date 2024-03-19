@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.Persistence;
-import modelo.Compras;
+import modelo.productos.Compras;
 
 public class ComprasJpaController {
    

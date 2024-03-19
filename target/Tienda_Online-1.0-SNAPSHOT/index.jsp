@@ -15,7 +15,7 @@
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
    </head> 
   
-   <body> 
+   <body
        <header>
            <div class="header">
                <div class="contenedor">
@@ -36,7 +36,7 @@
                                   <a class="nav-link" href="productos.jsp">Hombre</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="SvProductos">Mujer</a>
+                                 <a class="nav-link" href="productos.jsp">Mujer</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="shop.html">sobre nosotros</a>
@@ -50,9 +50,11 @@
                               <li class="nav-item">
                                   <a class="nav-link" href="registrar.jsp">Registrar</a>
                               </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
+                              
+                              <li class="nav-item"> 
+                                  <a class="nav-link" href="carrito.jsp"><img src="icon/carrito.png" alt="#"/></a>
                               </li>
+                              
                            </ul>
                         </div>
                                </nav>

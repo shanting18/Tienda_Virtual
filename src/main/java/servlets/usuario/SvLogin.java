@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import modelo.Usuario;
+import modelo.usuario.Usuario;
 
 @WebServlet(name = "SvLogin", urlPatterns = {"/SvLogin"})
 public class SvLogin extends HttpServlet {
@@ -34,9 +34,10 @@ public class SvLogin extends HttpServlet {
                 
         String email = request.getParameter("email");
         String password = request.getParameter("password");
+
         
         try {
-            if(validarCredenciales(email,password)){
+            if (validarCredenciales(email,password)) {
                 HttpSession session = request.getSession(true);
                 session.setAttribute("email", email);
                 response.sendRedirect("productos.jsp");
