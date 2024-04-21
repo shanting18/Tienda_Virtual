@@ -25,3 +25,9 @@ I
 0src/main/java/persistence/PagoJpaController.java,e\f\efe05566979d02f75d5a216d0ce968337d69909d
 c
 3src/main/java/persistence/ComprasJpaController.java,7\4\74dc970b7fb4e4f1e0752f9b05782f7e2f604a0a
+T
+$src/main/webapp/paginas/detalles.jsp,9\7\97f4f978791a5a8dcb8d2505e747be101bbc8fea
+P
+ src/main/webapp/css/detalles.css,3\2\32fff776dfe5d75bc0c7c166d2865e33e39c6d39
+M
+src/main/webapp/css/login.css,c\9\c953adb63298078442a1704870875d6d03cf7c6f

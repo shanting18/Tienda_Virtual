@@ -1,4 +1,5 @@
 servlets\usuario\SvLogin.class
+servlets\productos\Svdetalles.class
 persistence\UsuarioJpaController.class
 Controller\ProductoController.class
 persistence\exceptions\IllegalOrphanException.class

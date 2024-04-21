@@ -34,7 +34,7 @@
           </div>
        </header>
        <section>
-           <form action="SvProductos" method="post" enctype="multipart/form-data" id="request" class="menu_form">
+           <form action="SvProductos" method="post" enctype="multipart/form-data" class="menu_form">
                 <div class="caja">
                     <h1>Crear producto</h1>
                 </div>
@@ -86,7 +86,7 @@
                    <% if(productos != null){%>
                         <% for (Producto producto : productos) {%>
                             <tr>
-                               <th><img src="<%=producto.getFoto()%>" width="200px" height="200px" alt=""/></th>
+                               <th><img src="${pageContext.request.contextPath}<%=producto.getFoto()%>" width="200px" height="200px" alt=""/></th>
                                <th><%=producto.getNombre()%></th>
                                <th><%=producto.getPrecio()%></th>
                                <th><%=producto.getCantidad()%></th>

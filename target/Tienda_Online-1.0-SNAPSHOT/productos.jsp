@@ -27,7 +27,7 @@
         
         if (usuario == null) {
                 response.sendRedirect("login.jsp");
-            }else{
+       }else{
         }
    %>
        <header>
@@ -115,13 +115,14 @@
         <div class="contenedor-producto">
             <div class="fila">
                 <% for (Producto producto : productos) { %>
-                    <a href="#">
-                        <div class="caja">
-                            <figure><img src="<%= producto.getFoto()%> " width="0px" height="30px" alt=""/></figure>
+                <div class="caja">
+                    <a href="Svdetalles?accion=detalles&id=<%=producto.getId()%>">
+                        <figure><img src="${pageContext.request.contextPath} <%= producto.getFoto()%>" width="0px" height="30px" alt=""/></figure>
                             <h3><span class="peso">$</span> <%= producto.getPrecio() %> </h3>
                             <p> <%= producto.getNombre()%></p>
-                        </div>
                     </a>
+                    <button onclick="window.location.href='carrito.'"class="carrito">Añadir carrito</button>
+                </div>
                 <% } %>
             </div>
         </div>

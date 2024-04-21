@@ -8,7 +8,7 @@
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <title>Shanting</title> 
        <!-- style css -->
-             <link rel="stylesheet" href="css/styleP1.css">
+             <link rel="stylesheet" href="css/style.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- logo -->
@@ -90,11 +90,13 @@
          </div>
          <div class="contenedor-producto">
             <div class="fila">
-                <div class="caja">
+                <a href="detalles.jsp">
+                    <div class="caja">
                      <figure><img src="images/glass1.png" alt="#"/></figure>
                      <h3><span class="peso">$</span>50</h3>
                      <p>Sunglasses</p>
                 </div>
+                </a>
                 <div class="caja">
                      <figure><img src="images/glass2.png" alt="#"/></figure>
                      <h3><span class="peso">$</span>50</h3>
