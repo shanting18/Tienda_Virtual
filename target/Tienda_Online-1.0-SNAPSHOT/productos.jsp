@@ -48,7 +48,7 @@
                                                   <a class="nav-link" href="productos.jsp">Hombre</a>
                                               </li>
                                               <li class="nav-item">
-                                                 <a class="nav-link" href="#">Mujer</a>
+                                                 <a class="nav-link" href="productos.jsp">Mujer</a>
                                               </li>
                                               <li class="nav-item">
                                                  <a class="nav-link" href="shop.html">sobre nosotros</a>
@@ -56,11 +56,10 @@
                                               <li class="nav-item">
                                                  <a class="nav-link" href="contact.html">Contactanos</a>
                                               </li>
-                                              <li class="nav-item login_btn">
-                                                  <a class="nav-link" href="login.jsp">Login</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                  <a class="nav-link" href="registrar.jsp">Registrar</a>
+                                              <li class="nav-item logout">
+                                                  <form action="SvLogout" method="POST">
+                                                        <button type="submit" >Cerrar Sesion</button>
+                                                  </form>
                                               </li>
                                          <% if (usuario.equals("admin@example.com")) {%>
                                               <li class="nav-item">
@@ -116,7 +115,7 @@
             <div class="fila">
                 <% for (Producto producto : productos) { %>
                 <div class="caja">
-                    <a href="Svdetalles?accion=detalles&id=<%=producto.getId()%>">
+                    <a href="SvDetalles?accion=detalles&id=<%=producto.getId()%>">
                         <figure><img src="${pageContext.request.contextPath} <%= producto.getFoto()%>" width="0px" height="30px" alt=""/></figure>
                             <h3><span class="peso">$</span> <%= producto.getPrecio() %> </h3>
                             <p> <%= producto.getNombre()%></p>
@@ -135,14 +134,13 @@
                      <ul class="location_icon">
                         <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Location</li>
                         <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +57 123456789</li>
-                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
+                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> santiago@gmail.com</li>
                      </ul>
             </div>
             <div class="copyright">
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
                      </div>
                   </div>
                </div>

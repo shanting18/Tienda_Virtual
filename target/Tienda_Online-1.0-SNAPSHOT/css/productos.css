@@ -199,6 +199,19 @@ a {
      background: #000 !important;
 }
 
+button {
+     background: #03cafc;
+     padding: 9px 32px !important;
+     display: inline;
+     border-radius: 20px;
+     color: #fff !important;
+     margin: 0 10px;
+}
+
+bottom:hover {
+     background: #000 !important;
+}
+
 section{
     background: #f5f6f6;
     padding: 3px 0px 5px 0px;

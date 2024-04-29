@@ -25,9 +25,17 @@ I
 0src/main/java/persistence/PagoJpaController.java,e\f\efe05566979d02f75d5a216d0ce968337d69909d
 c
 3src/main/java/persistence/ComprasJpaController.java,7\4\74dc970b7fb4e4f1e0752f9b05782f7e2f604a0a
-T
-$src/main/webapp/paginas/detalles.jsp,9\7\97f4f978791a5a8dcb8d2505e747be101bbc8fea
 P
  src/main/webapp/css/detalles.css,3\2\32fff776dfe5d75bc0c7c166d2865e33e39c6d39
 M
 src/main/webapp/css/login.css,c\9\c953adb63298078442a1704870875d6d03cf7c6f
+`
+0src/main/java/servlets/productos/Svdetalles.java,e\8\e8f297d2864f85d14648442ebdfb255baa2fb834
+\
+,src/main/java/modelo/productos/Detalles.java,9\c\9c720e27eed450d736d13f843a81a064a84332d1
+`
+0src/main/java/servlets/productos/SvDetalles.java,8\d\8d7c12c288229a40f65bbba929622320d91d84b0
+L
+src/main/webapp/detalles.jsp,a\3\a3c3ed78c3f78095a933a115d8e2f173377c7d8e
+Q
+!src/main/webapp/css/productos.css,3\5\358e00741a35f5dad86441fd0e3ccd77c755aebb

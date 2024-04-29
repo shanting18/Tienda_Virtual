@@ -33,10 +33,10 @@
                                    <div class="largor-lista">
                            <ul class="espacio-lista">
                               <li class="nav-item active">
-                                  <a class="nav-link" href="productos.jsp">Hombre</a>
+                                  <a class="nav-link" href="login.jsp">Hombre</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="productos.jsp">Mujer</a>
+                                 <a class="nav-link" href="login.jsp">Mujer</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="shop.html">sobre nosotros</a>
@@ -171,15 +171,6 @@
                         <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +01 1234567890</li>
                         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
                      </ul>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
             </div>
          </div>
       </footer> 

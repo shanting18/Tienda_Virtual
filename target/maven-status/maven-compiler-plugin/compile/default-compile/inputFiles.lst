@@ -1,5 +1,5 @@
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\controller.java
-C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\servlets\productos\Svdetalles.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\servlets\productos\SvDetalles.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\ProductoJpaController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\UsuarioJpaController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\exceptions\IllegalOrphanException.java
@@ -23,3 +23,4 @@ C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\PersistenceController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\Controller\ProductoController.java
 C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\persistence\exceptions\UsuarioNoExisteException.java
+C:\Users\santi\Documents\PROYECTOS\proyectos backend\Tienda_Online\src\main\java\servlets\usuario\SvLogout.java

@@ -1,5 +1,4 @@
 servlets\usuario\SvLogin.class
-servlets\productos\Svdetalles.class
 persistence\UsuarioJpaController.class
 Controller\ProductoController.class
 persistence\exceptions\IllegalOrphanException.class
@@ -24,8 +23,10 @@ persistence\exceptions\NonexistentEntityException.class
 modelo\usuario\Usuario_.class
 modelo\productos\Detalles_.class
 persistence\ProductoJpaController.class
+servlets\productos\SvDetalles.class
 servlets\usuario\SvRegistrar.class
 modelo\usuario\Usuario.class
+servlets\usuario\SvLogout.class
 persistence\DetallesJpaController.class
 modelo\productos\Producto_.class
 Controller\UsuarioController.class
