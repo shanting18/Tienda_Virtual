@@ -64,7 +64,7 @@
                                 <p>tarjeta credito/devito</p>
                             </a>
                         </div>
-                        <div class="metodos-pago">
+                        <div class="metodos-pago-pse">
                             <a class="link-pagos" href="productos.jsp">
                                 <p>PSE</p>
                             </a>

@@ -1,6 +1,5 @@
 package persistence;
 
-import java.io.Serializable;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityNotFoundException;
@@ -23,13 +22,11 @@ public class UsuarioJpaController {
             em.persist(usuario);
             em.getTransaction().commit();
         } catch (Exception ex) {
-            if (em.getTransaction() != null) {
+            if (em.getTransaction() != null || em.getTransaction().isActive()) {
                 em.getTransaction().rollback();
             }
             throw ex;
-        } finally {
-            em.close();
-        }
+        } 
     }
 
     public void edit(Usuario usuario) throws Exception {

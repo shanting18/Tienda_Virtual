@@ -56,9 +56,9 @@
                                               <li class="nav-item">
                                                  <a class="nav-link" href="contact.html">Contactanos</a>
                                               </li>
-                                              <li class="nav-item logout">
+                                              <li class="nav-item">
                                                   <form action="SvLogout" method="POST">
-                                                        <button type="submit" >Cerrar Sesion</button>
+                                                        <button class="logout" type="submit" >Cerrar Sesion</button>
                                                   </form>
                                               </li>
                                          <% if (usuario.equals("admin@example.com")) {%>

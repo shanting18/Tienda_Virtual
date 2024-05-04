@@ -39,3 +39,5 @@ L
 src/main/webapp/detalles.jsp,a\3\a3c3ed78c3f78095a933a115d8e2f173377c7d8e
 Q
 !src/main/webapp/css/productos.css,3\5\358e00741a35f5dad86441fd0e3ccd77c755aebb
+R
+"src/main/webapp/css/responsive.css,1\e\1eabec44c29429d08ea53c9ccf09650301a8c735

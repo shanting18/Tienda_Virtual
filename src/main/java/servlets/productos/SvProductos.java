@@ -1,4 +1,4 @@
- package servlets.productos;
+  package servlets.productos;
 
 import Controller.ProductoController;
 import java.io.File;
@@ -21,7 +21,7 @@ import modelo.productos.Producto;
 public class SvProductos extends HttpServlet {
     private static final long serialVersionUID = 1L;
     ProductoController controller = new ProductoController();
-    private final String pathFoto = "/WEB-INF/fotos/";
+    private final String pathFoto = "/webapp/fotos/";
     private final File cargarFoto = new File(pathFoto);
     private final String[] extenciones = {".ico", ".png",".jpg",".jpeg"};
 
